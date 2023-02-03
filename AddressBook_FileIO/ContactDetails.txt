@@ -1,0 +1,10 @@
+﻿
+First Name : Swathi
+Last Name : Jaishwal
+Address : Shamshabad
+City : Hyderabad
+State : Telangana
+Email : abc.xy@gmail.com
+Zip code : 511322
+PhoneNumber : 9876543210
+
