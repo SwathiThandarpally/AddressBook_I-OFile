@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Dispalaying File Input Output Stream Reader ");
 
-            string path = @"C:\Users\sai\source\repos\RFP-244\AddressBook_FileIO\AddressBook_I-OFile\AddressBook_FileIO\ContactDetails.txt";
+            //string path = @"C:\Users\sai\source\repos\RFP-244\AddressBook_FileIO\AddressBook_I-OFile\AddressBook_FileIO\ContactDetails.txt";
 
             PersonDetails details = new PersonDetails();
             Console.WriteLine("\nEnter your First Name : ");
@@ -28,8 +28,8 @@
 
             InputOutputFile inputOutput = new InputOutputFile();
             inputOutput.CheckIfExist();
-            inputOutput.WriteDetailsInFile(path, details );
-            inputOutput.ReadDetailsFromFile(path);
+            inputOutput.WriteDetailsInFile(@"C:\Users\sai\source\repos\RFP-244\AddressBook_FileIO\AddressBook_I-OFile\AddressBook_FileIO\ContactDetails.txt", details );
+            inputOutput.ReadDetailsFromFile(@"C:\Users\sai\source\repos\RFP-244\AddressBook_FileIO\AddressBook_I-OFile\AddressBook_FileIO\ContactDetails.txt");
 
 
         }
